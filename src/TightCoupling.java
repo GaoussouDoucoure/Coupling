@@ -15,6 +15,6 @@ public class TightCoupling {
     public static void main(String[] args) {
         Laptop laptop = new Laptop();
         Programmer programmer = new Programmer();
-        programmer.code(laptop);
+        programmer.code(laptop); //the argument being passed has to specifically be the object created using Laptop class because that has been used as Parameter for Programmer class, hence why it is tight coupling
     }
 }
