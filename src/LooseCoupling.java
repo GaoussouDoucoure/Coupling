@@ -27,6 +27,7 @@ public class LooseCoupling {
         Computer desktop = new Desktop();
         Developer developer = new Developer();
         developer.code(pc);
+        System.out.println();
         developer.code(desktop);
         //an Analogy of this whole case, can be a developer saying he will still work while provided a computer, either pc or desktop or a new system
     }
